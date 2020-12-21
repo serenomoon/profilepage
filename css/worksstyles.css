@@ -1,85 +1,299 @@
 body {
-  margin : 0;
-  text-align:center;
+  margin: 0;
+  text-align: center;
   font-family: 'Merriweather', serif;
+  font-size: 1.3vw;
 }
 
 /*TOP*/
-.top-container {
-  position: relative;
+.container-fluid {
   overflow: hidden;
-  height: 670px;
+  margin: 0;
+  padding: 0;
 }
 
 .presentacion {
   position: absolute;
-  right: 0;
-  left: 0;
-  margin: auto;
-  top: 150px;
+  margin: 8% auto;
+  top: 0;
+  width: 100%;
 }
 
 
+.imgprofile {
+  width: 10%;
+}
 
-.presentacion h1{
+/* Fondo animado */
+.fondo {
+  margin-bottom: 60%;
+  overflow: hidden;
+}
+
+.fadein {
+    position:absolute;
+    top:0;
+    left:-50%;
+    width: 100%;
+}
+.fadein img {
+    position:absolute;
+    width: 100%;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+#f1 {
+
+}
+#f2 {
+    -webkit-animation-delay: -10s;
+}
+#f3 {
+    -webkit-animation-delay: -5s;
+}
+#f4 {
+    -webkit-animation-delay: -7s;
+}
+
+/* --------- */
+
+
+.presentacion h1 {
   color: #f8615a;
   font-family: 'Sacramento', cursive;
-  margin: 50px auto 0 auto;
-  font-size: 5.625rem;
+  margin: 3% auto 0 auto;
+  font-size: 6vw;
+  font-weight: bold;
+  width: 100%;
+}
+
+.presentacion h3 {
+  font-size: 2vw;
 }
 
 .menu {
   position: absolute;
-  top: 1em;
+  top: 0;
+  margin: 0 1rem 0 0;
   right: 1em;
 }
 
-a {
-  font-family: 'Rubik', sans-serif;
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: normal;
+.menu-alinear {
+  width: 100%;
 }
+
+
+.nav-link {
+  font-size: 1.2vw;
+}
+
+.navbar-dark .navbar-toggler {
+  margin-bottom: 0.5em;
+  border-color: #f8615a;
+  color: rgba(248, 97, 90 ,.20);
+}
+
+.navbar-dark .navbar-toggler .fas {
+  color:#f8615a;
+}
+
 .menu a {
-  margin: 0;
-  padding: 0 0;
   border-width: 0;
-  padding: 5px 5px;
   border-style: hidden;
-  background-color: Transparent;
+  margin: 0.2rem 0.2rem;
   color: white;
   border: 2px solid #f8615a;
   transition-duration: 0.4s;
-  font-size: 15px;
-  outline:none;
-  }
+  outline: none;
+}
+
 
 .menu a:hover {
-    border: 2px solid #f8615a;
-    background-color: #f8615a;
-    color: white;
-  }
-
-.menu a:focus{
-  border: 2px solid #721b65;
-  background-color: Transparent;
+  border: 2px solid #f8615a;
+  background-color: #f8615a;
+  color: white;
 }
 
-.menu a:focus:hover{
-  background-color: #721b65;
-  border: 2px solid #721b65;
-}
 
-/*Center*/
+/*CENTER*/
 .center-container {
   margin-top: 2em;
 }
 
-.center-container hr {
-  width: 20em;
+
+.center-container img {
+  padding-top: 50px;
+  border-radius: 100%;
+}
+
+.center-container h1 {
+  color: #ffd868;
+  margin: 3% 0;
+  font-size: 3.5vw;
+}
+
+.center-container p {
+  padding: 0 15% 0 15%;
+}
+
+/* separador */
+.separador {
+  margin: 8% 5%;
+  opacity: 0.5;
+  width: 25%;
+}
+
+/* HOBBIES */
+.hobbies {
+  margin: 0 8% 5% 8%;
+}
+
+.hobbies img {
+  height: 120px;
+}
+
+.hobbies p{
+  margin: 0 1rem;
+}
+
+.hobbies-rows {
+  margin-bottom: 2rem;
+}
+
+.imghobbiesw {
+  overflow: hidden;
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  border: 4px double #ffd868;
+  margin: 0 auto;
+  margin: 0 auto 0.5rem auto;
+}
+
+.imghobbiesr {
+  overflow: hidden;
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  border: 4px double #ffd868;
+  margin: 0 auto;
+  margin: 0 auto 0.5rem auto;
+}
+
+.imghobbiesp {
+  overflow: hidden;
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  border: 4px double #ffd868;
+  margin: 0 auto 0.5rem auto;
+}
+
+.imghobbiesmus {
+  overflow: hidden;
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  border: 4px double #ffd868;
+  margin: 0 auto;
+  margin: 0 auto 0.5rem auto;
+}
+
+.imghobbiesmus img {
+  width: 150px;
+  margin-right: 50px;
+}
+
+.bichito-img {
+  width: 7%;
+}
+
+/*RECALL*/
+.recall {
+  margin: 0 0 5% 0;
+  background-color: #f8615a;
+}
+
+.recall-row {
+  margin: 0 15%;
 }
 
 
+.recall .btn {
+  margin: 20% 5%;
+  font-size: 1.5vw;
+}
+
+.recall p {
+  margin: 12% 0;
+  font-size: 2vw;
+  color: white;
+}
+
+/* CURRICULUM */
+.cv {
+  margin: 5% 0;
+}
+
+.cv-col p {
+  margin: 5% 0 0 0;
+  padding-left: 5%;
+  text-align: left;
+}
+
+.cv-img {
+  margin: 0 50% 2% 50%;
+  width: 15%;
+  display: inline-block;
+}
+
+.cv-bt {
+  width: 25%;
+  margin: auto 46%;
+  display: inline-block;
+  font-size: 1.5vw;
+}
 
 
-/*BOTONES*/
+/* FOOT */
+.foot {
+  background-color: #f8615a;
+}
+
+.foot-col-linkedin {
+  margin: 1% 0;
+  text-align: right;
+}
+
+.foot-col-github {
+  margin: 1% 0;
+  text-align: left;
+}
+
+.foot-p {
+  color: white;
+  padding: 0 0;
+  font-size: 1vw;
+}
+
+/* dsadsads */
