@@ -294,3 +294,18 @@ body {
   padding: 0 0;
   font-size: 1vw;
 }
+
+
+/* @media only screen and (max-width: 600px) {
+  .fondo {
+    height: 250px;
+  }
+
+  .fadein {
+    width: 350px;
+  }
+
+  .fondo img {
+    min-width: 200%;
+  }
+} */

@@ -1,85 +1,117 @@
 body {
-  margin : 0;
-  text-align:center;
+  margin: 0;
+  text-align: center;
   font-family: 'Merriweather', serif;
+  font-size: 1.3vw;
 }
 
 /*TOP*/
-.top-container {
-  position: relative;
+.container-fluid {
   overflow: hidden;
-  height: 670px;
+  margin: 0;
+  padding: 0;
 }
 
 .presentacion {
-  position: absolute;
-  right: 0;
-  left: 0;
-  margin: auto;
-  top: 150px;
+  margin: 4% 0 0 0;
+  width: 120%;
+}
+
+.imgworkrad {
+  overflow: hidden;
+  border-radius: 100%;
+  border: 4px double #ffd868;
+  margin: 0 0;
+}
+
+.imgwork {
+  width: 100%;
 }
 
 
 
-.presentacion h1{
+.presentacion h1 {
   color: #f8615a;
   font-family: 'Sacramento', cursive;
-  margin: 50px auto 0 auto;
-  font-size: 5.625rem;
+  margin: 0 auto;
+  font-size: 6vw;
+  font-weight: bold;
+  width: 100%;
+}
+
+.presentacion h3 {
+  font-size: 2vw;
 }
 
 .menu {
   position: absolute;
-  top: 1em;
+  top: 0;
+  margin: 0 1rem 0 0;
   right: 1em;
 }
 
-a {
-  font-family: 'Rubik', sans-serif;
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: normal;
+.menu-alinear {
+  width: 100%;
 }
+
+
+.nav-link {
+  font-size: 1.2vw;
+}
+
+.navbar-dark .navbar-toggler {
+  margin-bottom: 0.5em;
+  border-color: #f8615a;
+  color: rgba(248, 97, 90 ,.20);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.navbar-dark .navbar-toggler .fas {
+  color:#f8615a;
+}
+
 .menu a {
-  margin: 0;
-  padding: 0 0;
   border-width: 0;
-  padding: 5px 5px;
   border-style: hidden;
-  background-color: Transparent;
+  margin: 0.2rem 0.2rem;
   color: white;
+  background-color: #f8615a;
   border: 2px solid #f8615a;
   transition-duration: 0.4s;
-  font-size: 15px;
-  outline:none;
-  }
+  outline: none;
+}
+
 
 .menu a:hover {
-    border: 2px solid #f8615a;
-    background-color: #f8615a;
-    color: white;
-  }
-
-.menu a:focus{
-  border: 2px solid #721b65;
-  background-color: Transparent;
+  border: 2px solid #f8615a;
+  background-color: white;
 }
 
-.menu a:focus:hover{
-  background-color: #721b65;
-  border: 2px solid #721b65;
+/* IMG SUELTAS */
+.imgsueltas {
+  width: 30%;
 }
 
-/*Center*/
-.center-container {
-  margin-top: 2em;
+.imgsueltas-col {
+  margin: 10% 0 0 5%;
 }
 
-.center-container hr {
-  width: 20em;
+.imgsueltas-col a {
+  display: block;
+  margin-bottom: 30%;
 }
 
+.imgsueltas-col i {
+  font-size: 150%;
+}
 
+.btn-github {
+  margin-left: 15%;
+}
 
-
-/*BOTONES*/
+.btn-instagram {
+  margin-left: 15%;
+}
