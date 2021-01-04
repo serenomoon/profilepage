@@ -296,16 +296,125 @@ body {
 }
 
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 614px) {
+  body {
+    font-size: 3vw;
+  }
   .fondo {
-    height: 250px;
+    margin-bottom: 60%;
+    overflow: hidden;
   }
 
   .fadein {
-    width: 350px;
+      position:absolute;
+      top:0;
+      left:-110%;
+      width: 100%;
   }
 
-  .fondo img {
-    min-width: 200%;
+  .fadein img {
+    width: 200%;
   }
-} */
+
+  .presentacion h1 {
+    font-size: 14vw;
+  }
+
+  .presentacion h3 {
+    font-size: 5vw;
+  }
+
+  .imgprofile {
+    width: 25%;
+    margin-top: 10%;
+  }
+
+  .nav-link {
+    font-size: 3vw;
+  }
+
+  .navbar-toggler .fas {
+    font-size: 6vw;
+  }
+
+  .separador {
+    width: 50%;
+  }
+
+  /* CENTRO */
+  .center-container {
+    margin-top: 15rem;
+  }
+  .center-container h1 {
+    font-size: 5vw;
+  }
+
+  /* HOBBIES */
+  .bichito-img {
+    width: 20%;
+  }
+
+  /* RECALL */
+
+  .recall-row {
+    margin: 0 5%;
+  }
+
+
+  .recall .btn {
+    margin: 5% 5% 20% 5%;
+    font-size: 4vw;
+  }
+
+  .recall p {
+    margin: 12% 0 5% 0;
+    font-size: 5vw;
+    color: white;
+  }
+
+  /* CV */
+  .cv-col p {
+    margin: 5% 0 0 0;
+    padding-left: 15%;
+    text-align: left;
+  }
+
+  .cv-img {
+    margin: 0 55% 2% 45%;
+    width: 30%;
+    display: inline-block;
+  }
+
+  .cv-bt {
+    width: 30%;
+    margin: auto 46%;
+    display: inline-block;
+    font-size: 3vw;
+  }
+
+  /* FOOT */
+
+  .foot {
+    padding: 5% 0;
+  }
+
+  .foot .fab{
+    font-size: 5vw;
+  }
+
+  .foot-col-linkedin {
+    margin: 1% 0;
+    text-align: right;
+  }
+
+  .foot-col-github {
+    margin: 1% 0;
+    text-align: left;
+  }
+
+  .foot-p {
+    color: white;
+    padding: 0 0;
+    font-size: 2vw;
+  }
+}
