@@ -39,9 +39,6 @@ body {
   width: 100%;
 }
 
-.presentacion h3 {
-  font-size: 2vw;
-}
 
 .menu {
   position: absolute;
@@ -115,3 +112,73 @@ body {
 .btn-instagram {
   margin-left: 15%;
 }
+
+
+/* Responsive */
+@media only screen and (max-width: 614px) {
+
+  body {
+    font-size: 3vw;
+  }
+
+  /* Presenteacion */
+  .presentacion {
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  .imgh1 {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0;
+  }
+
+  .imgworkrad {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .presentacion h1 {
+    font-size: 14vw;
+    margin-top: -8%;
+  }
+
+  /* BOTONES */
+  .imgsueltas-col {
+    margin: 0;
+  }
+
+  .imgsueltas {
+    display: inline;
+  }
+
+   .imgsueltas i {
+     font-size: 5vw;
+   }
+
+   .imgsueltas-col a {
+     display: inline-block;
+     margin-bottom: 0;
+   }
+
+   .btn-github {
+     margin-left: 0;
+   }
+
+   .btn-instagram {
+     margin-left: 0;
+   }
+
+  /* MENU */
+  .nav-link {
+    font-size: 3vw;
+  }
+
+  .navbar-toggler .fas {
+    font-size: 6vw;
+  }

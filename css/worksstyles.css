@@ -28,8 +28,6 @@ body {
   width: 100%;
 }
 
-
-
 .presentacion h1 {
   color: #f8615a;
   font-family: 'Sacramento', cursive;
@@ -54,7 +52,6 @@ body {
   width: 100%;
 }
 
-
 .nav-link {
   font-size: 1.2vw;
 }
@@ -62,15 +59,15 @@ body {
 .navbar-dark .navbar-toggler {
   margin-bottom: 0.5em;
   border-color: #f8615a;
-  color: rgba(248, 97, 90 ,.20);
+  color: rgba(248, 97, 90, .20);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: black;
+  color: black;
 }
 
 .navbar-dark .navbar-toggler .fas {
-  color:#f8615a;
+  color: #f8615a;
 }
 
 .menu a {
@@ -84,13 +81,10 @@ body {
   outline: none;
 }
 
-
 .menu a:hover {
   border: 2px solid #f8615a;
   background-color: white;
 }
-
-
 
 /*CENTER*/
 .center-container {
@@ -117,8 +111,6 @@ body {
   padding: 0 15% 0 15%;
 }
 
-
-
 /* HOBBIES */
 .hobbies {
   margin: 5% 8%;
@@ -128,7 +120,7 @@ body {
   width: 25%;
 }
 
-.hobbies p{
+.hobbies p {
   margin: 1rem 1rem;
 }
 
@@ -141,7 +133,6 @@ body {
   margin: 5% 0 5% 0;
   opacity: 50%;
 }
-
 
 /*RECALL*/
 .workscall {
@@ -185,11 +176,11 @@ body {
 }
 
 @media (min-width: 1px) {
-.col-lg-3 {
+  .col-lg-3 {
     flex: 0 0 auto;
-    width: 33%; }
+    width: 33%;
+  }
 }
-
 
 /* OFCORSE */
 .ofcorse {
@@ -210,9 +201,6 @@ body {
   width: 60%;
   display: inline-block;
 }
-
-
-
 
 /* FOOT */
 .foot {
@@ -235,4 +223,131 @@ body {
   font-size: 1vw;
 }
 
-/* dsadsads */
+/* Responsive */
+@media only screen and (max-width: 614px) {
+
+  body {
+    font-size: 3vw;
+  }
+
+  /* Presenteacion */
+  .imgworkrad {
+    width: 100%;
+    margin: 0;
+  }
+
+  .presentacion h1 {
+    font-size: 14vw;
+  }
+
+  .presentacion h3 {
+    font-size: 5vw;
+  }
+
+
+  /* MENU */
+  .nav-link {
+    font-size: 3vw;
+  }
+
+  .navbar-toggler .fas {
+    font-size: 6vw;
+  }
+
+  /* Nube1 */
+  .imgprofile {
+    width: 50%;
+  }
+
+  /* CENTER */
+  .center-container{
+    margin: 10% 0 20%;
+  }
+
+  .center-container h1 {
+    font-size: 5vw;
+    margin-top: 10%;
+  }
+
+  /* HOBBIES */
+  .hobbies{
+    display: inline-block;
+  }
+
+  .hobbies-rows {
+    display: inline;
+  }
+
+  .hobbies img {
+    width: 30%;
+  }
+
+  .hobbies p {
+    margin-bottom: 10%;
+    text-align: left;
+  }
+
+  /* Nube2 */
+  .imgcorte {
+    width: 30%;
+  }
+
+  /* WORKS */
+  .workstitle h1 {
+    font-size: 5vw;
+  }
+
+  .workstitle {
+    margin: 0 0 -5% 0;
+  }
+
+  .works {
+    display: inline;
+  }
+
+  .works-rows {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .works img {
+    width: 50%;
+    margin-top: 10%;
+  }
+
+  .works p {
+    text-align: left;
+  }
+
+  /* OFCORSE */
+  .ofcorse-img {
+    width: 100%;
+  }
+
+
+  /* FOOT */
+  .foot {
+    padding: 5% 0;
+  }
+
+  .foot .fab{
+    font-size: 5vw;
+  }
+
+  .foot-col-linkedin {
+    margin: 1% 0;
+    text-align: right;
+  }
+
+  .foot-col-github {
+    margin: 1% 0;
+    text-align: left;
+  }
+
+  .foot-p {
+    color: white;
+    padding: 0 0;
+    font-size: 2vw;
+  }
+
+}
