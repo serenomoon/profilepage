@@ -70,6 +70,7 @@ body {
   color: #f8615a;
 }
 
+
 .menu a {
   border-width: 0;
   border-style: hidden;
@@ -207,14 +208,35 @@ body {
   background-color: #f8615a;
 }
 
+.foot-row {
+  margin: 0 auto;
+}
+
+.footbtn {
+  display: inline;
+  padding: 0 1rem;
+}
+
 .foot-col-linkedin {
   margin: 1% 0;
-  text-align: right;
 }
 
 .foot-col-github {
   margin: 1% 0;
-  text-align: left;
+}
+
+
+.flags{
+  margin: 2% 0;
+  width: 2.5%;
+}
+
+.flags:hover{
+  opacity: 70%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 100%;
+  border-color: #dc3545;
 }
 
 .foot-p {
@@ -352,6 +374,10 @@ body {
   .foot-col-github {
     margin: 1% 0;
     text-align: left;
+  }
+
+  .flags{
+    width: 6%;
   }
 
   .foot-p {
